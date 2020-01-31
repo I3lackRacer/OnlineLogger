@@ -1,11 +1,11 @@
+import uvicorn
+import yaml
+
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict
+from typing import Dict
 from starlette.exceptions import HTTPException
-
-import yaml
 from fastapi import FastAPI, Header
-import uvicorn as uvicorn
 
 
 def load_config() -> Dict:

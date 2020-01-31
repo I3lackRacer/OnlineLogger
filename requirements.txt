@@ -1,4 +1,4 @@
-PyYaml
-starlette
-uvicorn
-fastapi
+PyYaml==5.3
+starlette==0.12.9
+uvicorn==0.11.2
+fastapi==0.47.1

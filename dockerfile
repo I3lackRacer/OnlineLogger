@@ -8,4 +8,4 @@ COPY . .
 
 EXPOSE 4308
 
-CMD [ "python", "./Logger.py" ]
+CMD [ "python", "./logger_server.py" ]

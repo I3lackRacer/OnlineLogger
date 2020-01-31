@@ -14,7 +14,7 @@ def load_config() -> Dict:
         return data
 
 
-app = FastAPI(title="gcp-etl")
+app = FastAPI(title="logger")
 save_directory: str
 config = load_config()
 

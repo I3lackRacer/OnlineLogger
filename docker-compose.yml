@@ -5,3 +5,5 @@ services:
     build: .
     ports:
     - "4308:4308"
+    volumes:
+    - ~/logs:/var/log/onlinelogger

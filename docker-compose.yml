@@ -6,4 +6,4 @@ services:
     ports:
     - "4308:4308"
     volumes:
-    - ~/logs:/var/log/onlinelogger
+    - /home/i3lackracer/logs:/usr/src/app/logs

@@ -1,0 +1,7 @@
+version: '3'
+services:
+  logger:
+    restart: always
+    build: .
+    ports:
+    - "4308:4308"

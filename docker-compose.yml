@@ -7,3 +7,4 @@ services:
     - "4308:4308"
     volumes:
     - /home/i3lackracer/logs:/usr/src/app/logs
+    - /etc/localtime:/etc/localtime:ro

@@ -1,5 +1,5 @@
 requests
-PyYaml==5.3
+PyYaml==5.4
 starlette==0.12.9
 uvicorn==0.11.2
 fastapi==0.47.1
